@@ -12,7 +12,7 @@ export default function Search() {
     const navigate = useNavigate()
     const handleClick = (e) => {
         e.preventDefault()
-        navigate(`${userName}`)
+        navigate(`userInfo/${userName}`)
     }
     return (
         <>

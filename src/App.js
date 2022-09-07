@@ -7,8 +7,8 @@ export default function App() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path='/' element={<SearchPage />} />
-                <Route path='/:id' element={<InfoPage />} />
+                <Route path='/profile_Finder/' element={<SearchPage />} />
+                <Route path='/userInfo/:id' element={<InfoPage />} />
             </Routes>
         </BrowserRouter>
     )
