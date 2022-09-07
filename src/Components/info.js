@@ -7,7 +7,7 @@ export default function Info(props){
     const navigate = useNavigate()
     const handleClick = (e)=>{
         e.preventDefault()
-        navigate("/profile_Finder/")
+        navigate("/")
     }
     return(
         <header className="info-section">
