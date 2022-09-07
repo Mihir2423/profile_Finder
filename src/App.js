@@ -9,10 +9,10 @@ export default function App() {
         <BrowserRouter>
 
             <Routes>
-                <Route path='/' element={<SearchPage />} />
+                <Route path='/profile_Finder' element={<SearchPage />} />
             </Routes>
             <Routes>
-                <Route exact path='userInfo/:id' element={<InfoPage />} />
+                <Route exact path='/profile_Finder/userInfo/:id' element={<InfoPage />} />
             </Routes>
         </BrowserRouter>
     )

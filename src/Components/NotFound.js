@@ -5,7 +5,7 @@ export default function NotFound() {
     const navigate = useNavigate()
     const handleClick = (e)=>{
         e.preventDefault()
-        navigate('/')
+        navigate('/profile_Finder')
     }
     return (
         <div className="notfound_container">
