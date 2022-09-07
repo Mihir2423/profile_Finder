@@ -8,7 +8,7 @@ export default function App() {
         <BrowserRouter>
             <Routes>
                 <Route path='/profile_Finder/' element={<SearchPage />} />
-                <Route path='/profile_Finder/userInfo//:id' element={<InfoPage />} />
+                <Route path='/profile_Finder/userInfo/:id' element={<InfoPage />} />
             </Routes>
         </BrowserRouter>
     )
