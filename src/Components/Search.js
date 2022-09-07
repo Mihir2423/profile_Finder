@@ -12,7 +12,7 @@ export default function Search() {
     const navigate = useNavigate()
     const handleClick = (e) => {
         e.preventDefault()
-        navigate(`profile_Finder/userInfo/${userName}`)
+        navigate(`userInfo/${userName}`)
     }
     return (
         <>
